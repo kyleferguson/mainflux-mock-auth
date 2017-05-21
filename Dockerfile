@@ -6,5 +6,4 @@ ADD . /var/app
 ENV FLASK_APP=mock-auth-server.py
 WORKDIR /var/app
 
-EXPOSE 8180
 CMD ["flask", "run", "-h", "0.0.0.0", "-p", "8180"]
